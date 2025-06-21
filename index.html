@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Advanced Pong Game</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="game-container">
+        <header>
+            <h1>⚡ Pong Supreme ⚡</h1>
+        </header>
+        <div id="scoreboard">
+            <span id="player-score">0</span>
+            <span id="divider">|</span>
+            <span id="ai-score">0</span>
+        </div>
+        <canvas id="pong"></canvas>
+        <button id="reset-btn">⟳ Reset Game</button>
+        <footer>
+            <small>Touch or drag to play. Best on mobile & desktop!</small>
+        </footer>
+    </div>
+    <audio id="beep" src="https://cdn.pixabay.com/audio/2022/03/15/audio_115b9d2e13.mp3"></audio>
+    <audio id="score" src="https://cdn.pixabay.com/audio/2022/03/15/audio_115b9d2e13.mp3"></audio>
+    <script src="script.js"></script>
+</body>
+</html>
